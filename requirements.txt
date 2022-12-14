@@ -1,5 +1,6 @@
 torch==1.13.0
 pandas==1.5.2
+scikit-learn==1.2.0
 numpy
 jupyterlab==3.5.1
 matplotlib==3.6.2

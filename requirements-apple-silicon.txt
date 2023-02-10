@@ -1,0 +1,8 @@
+torch~=1.13
+tensorflow-macos~=2.11
+tensorflow-metal
+pandas~=1.5
+scikit-learn~=1.2
+jupyterlab~=3.5
+matplotlib~=3.6
+numpy

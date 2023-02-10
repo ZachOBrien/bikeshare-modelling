@@ -1,8 +1,8 @@
-# DS4400 Final Project
+# Bikeshare Ridership Modelling
+
+[![Python 3.10.5](https://img.shields.io/badge/python-3.10.5-blue.svg)](https://www.python.org/downloads/release/python-3105/)
 
 Zach O'Brien
-
-December 2022
 
 ## Set up Environment
 
@@ -24,26 +24,33 @@ December 2022
     ```
 
     ```console
+    # On Linux or MacOS:
     source env/bin/activate
     ```
 
 4. Install dependencies
 
-    ```console
-    # With environment activated
-    python -m pip install -r requirements.txt
+    On Apple silicon:
     ```
+    # With the env/ virtual environment activated:
+    python -m pip install -r requirements-apple-silicon.txt
+    ```
+
+    On all other platforms, including intel-based macs:
+    ```
+    # With the env/ virtual environment activated:
+    python -m pip install -r requirements.txt
 
 5. Create a new kernel for this environment to use with the Jupyter Notebook
 
-    ```console
-    # With environment activated
-    python -m ipykernel install --user --name ds4400_final_obrien
+    ```
+    # With env/ virtual environment activated
+    python -m ipykernel install --user --name bikeshare_modelling
     ```
 
 6. Open Jupyter Lab
 
-    ```console
+    ```
     # With the env/ virtual environment activated:
     jupyter-lab
     ```
